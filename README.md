@@ -1,5 +1,5 @@
 # Cars and Services Database C++
-## Project description:
+## Project description
 The purpose of this program is to create, edit and handle a database of cars and the services done on them. The code is implemented in **Object Oriented Programming language C++**. It consists of two classes named Car and Service for creating objects to be handled by the file handling functions. 
 * The Car data is consisted of the car model, plate number and year. The Service data is consisted of its description, time between two services in months, the last date when the service was done, and the next service date calculated inside the class using the last date as reference. Service class incorporates a static function that displays the current system date and time. 
 * The program offers the option to create or edit a file named “CarsAndServices.txt” in which all the data for cars and services will be added line by line sequentially. There is a interactive menu in the program that shows 5 options for the user to choose from. 
